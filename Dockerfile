@@ -11,7 +11,7 @@ VOLUME /service_resources
 ADD ${JAR_FILE} containerization-demo.jar
 
 #the port of the container to be exposed
-EXPOSE 8080 	
+EXPOSE 8123 	
 
 #to run a command inside container
 RUN bash -c 'touch /containerization-demo.jar'  

@@ -17,9 +17,9 @@ test application
 ===================
 To check if the application has started properly check below endpoints
 
-    http://localhost:8080/
+    http://localhost:8123/
     
 Rest API:-
 	
-	http://localhost:8080/greeting
+	http://localhost:8123/greeting
     
