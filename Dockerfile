@@ -2,7 +2,7 @@
 FROM java:8 
 
 #specify variables to be reused
-ARG JAR_FILE=target/containerization-demo-1.0.1.jar
+ARG JAR_FILE=target/containerization-demo-1.0.2.jar
 				
 #specific folder to be created in container
 VOLUME /service_resources 	

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HomeController {
-	
+
 	// inject via application.properties
 	@Value("${welcome.message}")
 	private String message;
@@ -30,6 +30,11 @@ public class HomeController {
 			Model model) {
 		model.addAttribute("message", name);
 		return "home";
+	}
+
+	@GetMapping("/bookPage")
+	public String bookPage() {
+		return "bookPage";
 	}
 
 }
